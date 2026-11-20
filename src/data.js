@@ -1,6 +1,6 @@
 // ─────────────────────────────────────────────────────────────
 //  Kamalesh B M — site content
-//  Edit everything here: text, projects, links. No need to touch components.
+//  Edit everything here: text and links. No need to touch components.
 // ─────────────────────────────────────────────────────────────
 
 export const profile = {
@@ -40,9 +40,9 @@ export const services = [
   {
     id: 'motion',
     code: 'V2',
-    title: 'After Effects Motion',
-    text: 'Kinetic typography, logo reveals, explainers and VFX compositing that give your brand a heartbeat.',
-    items: ['Logo animation', 'Kinetic typography', 'Explainer videos', 'VFX & compositing'],
+    title: 'Motion Graphics',
+    text: 'Kinetic typography, logo reveals, explainers and animated graphics that give your brand a heartbeat.',
+    items: ['Logo animation', 'Kinetic typography', 'Explainer videos', 'Animated graphics'],
   },
   {
     id: 'web',
@@ -60,100 +60,6 @@ export const services = [
   },
 ]
 
-// Categories: 'video' | 'motion' | 'web' | 'brand'
-// thumb: two colours used for the generated cover art (or set `image` to a file in /public)
-// video: optional YouTube/Vimeo embed URL shown in the project popup
-export const projects = [
-  {
-    title: 'Monsoon — Brand Film',
-    category: 'video',
-    client: 'Lifestyle brand',
-    year: '2026',
-    duration: '01:32',
-    description: 'A 90-second brand film cut from 6 hours of footage, graded warm-to-teal with custom sound design.',
-    tools: ['Premiere Pro', 'DaVinci Resolve', 'Audition'],
-    thumb: ['#2f4a1a', '#c6d84a'],
-    video: '',
-  },
-  {
-    title: 'Kinetic Type Pack',
-    category: 'motion',
-    client: 'Personal',
-    year: '2026',
-    duration: '00:45',
-    description: '40 animated title templates built in After Effects with expressions-driven controls.',
-    tools: ['After Effects', 'Illustrator'],
-    thumb: ['#1b2b3a', '#7fd1c7'],
-    video: '',
-  },
-  {
-    title: 'Studio Portfolio Site',
-    category: 'web',
-    client: 'Photography studio',
-    year: '2025',
-    duration: 'React',
-    description: 'A React + Vite gallery site with lazy-loaded video, smooth transitions and a 98 Lighthouse score.',
-    tools: ['React', 'Vite', 'CSS'],
-    thumb: ['#3a1f2b', '#f2a65a'],
-    link: '',
-  },
-  {
-    title: 'Wedding Highlights',
-    category: 'video',
-    client: 'Private',
-    year: '2025',
-    duration: '04:10',
-    description: 'Cinematic highlight film with music-synced cuts, speed ramps and filmic grade.',
-    tools: ['Premiere Pro', 'DaVinci Resolve'],
-    thumb: ['#40321a', '#f5d68a'],
-    video: '',
-  },
-  {
-    title: 'Logo Reveal — Tech Co.',
-    category: 'motion',
-    client: 'SaaS startup',
-    year: '2025',
-    duration: '00:08',
-    description: 'Particle-based logo reveal with 3D camera move and glitch transition.',
-    tools: ['After Effects', 'Element 3D', 'Trapcode'],
-    thumb: ['#16213a', '#8f7bff'],
-    video: '',
-  },
-  {
-    title: 'Café Rebrand',
-    category: 'brand',
-    client: 'Local café',
-    year: '2025',
-    duration: 'Identity',
-    description: 'Logo, colour palette, menu design and an animated logo sting for socials.',
-    tools: ['Illustrator', 'After Effects'],
-    thumb: ['#2b1a12', '#e08a5c'],
-    video: '',
-  },
-  {
-    title: 'Creator Shorts Series',
-    category: 'video',
-    client: 'YouTuber · 1.2M',
-    year: '2026',
-    duration: '00:59',
-    description: '30 vertical shorts with animated captions, zooms and sound effects — 18M combined views.',
-    tools: ['Premiere Pro', 'After Effects'],
-    thumb: ['#1a2f2a', '#5fe0a0'],
-    video: '',
-  },
-  {
-    title: 'Agency Landing Page',
-    category: 'web',
-    client: 'Marketing agency',
-    year: '2026',
-    duration: 'React',
-    description: 'Scroll-driven landing page with background video hero and a contact funnel.',
-    tools: ['React', 'Framer Motion', 'Node'],
-    thumb: ['#1e1e2e', '#c6d84a'],
-    link: '',
-  },
-]
-
 export const process = [
   { step: '01', title: 'Brief', text: 'We talk goals, audience, references and deadlines.', track: 'V1', len: 18 },
   { step: '02', title: 'Rough Cut', text: 'Story structure first — the skeleton of the edit or site.', track: 'V1', len: 26 },
@@ -163,7 +69,6 @@ export const process = [
 
 export const tools = [
   { name: 'Premiere Pro', abbr: 'Pr', level: 95, color: '#9999ff' },
-  { name: 'After Effects', abbr: 'Ae', level: 92, color: '#9999ff' },
   { name: 'DaVinci Resolve', abbr: 'Dv', level: 85, color: '#ff6b5b' },
   { name: 'Photoshop', abbr: 'Ps', level: 88, color: '#31a8ff' },
   { name: 'Illustrator', abbr: 'Ai', level: 86, color: '#ff9a00' },

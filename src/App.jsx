@@ -35,7 +35,7 @@ export default function App() {
           <Marquee />
           <About />
           <Services />
-          <Work onOpen={(p) => setModal(p)} />
+          <Work />
           <Process />
           <Tools />
           <Testimonials />

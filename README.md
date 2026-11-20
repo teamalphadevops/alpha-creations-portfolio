@@ -1,6 +1,6 @@
 # Kamalesh B M — Portfolio
 
-React + Vite portfolio for a video editor / After Effects motion designer / web developer.
+React + Vite portfolio for a video editor / motion designer / web developer.
 
 ## Run
 
@@ -15,8 +15,9 @@ npm run build    # production files in /dist (deploy to Netlify, Vercel, GitHub 
 Everything you need to edit is in **`src/data.js`**:
 
 - `profile` – your name, email, phone, socials, and `showreel` (a YouTube embed link like `https://www.youtube.com/embed/VIDEO_ID`)
-- `projects` – your work. Each one can have `video` (embed URL), `link` (live site) or `image` (a file in `/public`, e.g. `'/work/monsoon.jpg'`)
 - `services`, `stats`, `process`, `tools`, `testimonials`
+
+The Work section currently displays a “Coming Soon” message.
 
 **Your photo:** put it in `/public` and replace the placeholder in `src/components/About.jsx` with `<img src="/me.jpg" alt="Your name" />`.
 

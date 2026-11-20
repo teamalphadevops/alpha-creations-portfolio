@@ -36,7 +36,7 @@ export default function About() {
             One creator. <em>Every frame</em> of your brand.
           </h2>
           <p data-reveal>
-            Hi, I'm <strong>{profile.name}</strong>, a video editor and After Effects motion designer who also writes code — so I can take an idea
+            Hi, I'm <strong>{profile.name}</strong>, a video editor and motion designer who also writes code — so I can take an idea
             from a logo sketch, to an animated intro, to a finished edit, to the React website it lives on.
           </p>
           <p data-reveal>

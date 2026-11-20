@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { profile } from '../data.js'
 
-const types = ['Video editing', 'After Effects / Motion', 'Website', 'Logo & branding', 'Full package']
+const types = ['Video editing', 'Motion graphics', 'Website', 'Logo & branding', 'Full package']
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', type: types[0], message: '' })
