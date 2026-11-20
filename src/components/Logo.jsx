@@ -1,8 +1,10 @@
 /**
- * Alpha Creations logo, rebuilt as SVG + web fonts so it stays crisp,
+ * Portfolio logo, rebuilt as SVG + web fonts so it stays crisp,
  * transparent and animatable anywhere on the site.
  * The original artwork is kept at /public/alpha-logo-original.webp.
  */
+import { profile } from '../data.js'
+
 export function CameraMark({ className = '', animate = false }) {
   return (
     <svg className={`camera-mark ${animate ? 'is-animated' : ''} ${className}`} viewBox="0 0 120 104" aria-hidden="true">
@@ -26,11 +28,13 @@ export function CameraMark({ className = '', animate = false }) {
 }
 
 export default function Logo({ size = 'md', animate = false, className = '' }) {
+  const [brandLead, ...brandRest] = profile.brand.split(' ')
+
   return (
-    <div className={`logo logo--${size} ${animate ? 'logo--animate' : ''} ${className}`} aria-label="Alpha Creations">
-      <span className="logo-alpha">Alpha</span>
+    <div className={`logo logo--${size} ${animate ? 'logo--animate' : ''} ${className}`} aria-label={profile.brand}>
+      <span className="logo-alpha">{brandLead}</span>
       <CameraMark className="logo-camera" animate={animate} />
-      <span className="logo-creations">Creations</span>
+      <span className="logo-creations">{brandRest.join(' ')}</span>
     </div>
   )
 }

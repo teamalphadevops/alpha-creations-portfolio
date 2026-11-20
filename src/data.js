@@ -1,11 +1,11 @@
 // ─────────────────────────────────────────────────────────────
-//  Alpha Creations — site content
+//  Kamalesh B M — site content
 //  Edit everything here: text, projects, links. No need to touch components.
 // ─────────────────────────────────────────────────────────────
 
 export const profile = {
-  brand: 'Alpha Creations',
-  name: 'Your Name', // ← replace with your name
+  brand: 'Kamalesh B M',
+  name: 'Kamalesh B M',
   roles: ['Video Editor', 'Motion Designer', 'Web Developer', 'Logo Designer'],
   tagline:
     'I cut stories that keep people watching, animate brands that move, and build fast React websites to put it all on.',
@@ -174,7 +174,7 @@ export const tools = [
 
 export const testimonials = [
   {
-    quote: 'Alpha Creations turned our raw footage into something we still can’t stop rewatching. Fast, communicative, and genuinely creative.',
+    quote: 'Kamalesh B M turned our raw footage into something we still can’t stop rewatching. Fast, communicative, and genuinely creative.',
     name: 'Client Name',
     role: 'Founder, Lifestyle brand',
   },

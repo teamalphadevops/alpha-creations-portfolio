@@ -1,4 +1,4 @@
-# Alpha Creations — Portfolio
+# Kamalesh B M — Portfolio
 
 React + Vite portfolio for a video editor / After Effects motion designer / web developer.
 

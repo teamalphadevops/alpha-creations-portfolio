@@ -6,6 +6,7 @@ import { CameraMark } from './Logo.jsx'
 export default function Hero({ onReel }) {
   const tc = useTimecode()
   const [role, setRole] = useState(0)
+  const [brandLead, ...brandRest] = profile.brand.split(' ')
 
   useEffect(() => {
     const id = setInterval(() => setRole((r) => (r + 1) % profile.roles.length), 2400)
@@ -28,7 +29,7 @@ export default function Hero({ onReel }) {
           <span className="hide-sm">4K · 24FPS · ISO 800</span>
         </div>
         <div className="vf-bottom mono">
-          <span className="hide-sm">ALPHA_CREATIONS_SHOWREEL.mp4</span>
+          <span className="hide-sm">{profile.brand.toUpperCase().replaceAll(' ', '_')}_SHOWREEL.mp4</span>
           <span className="vf-battery"><b /><b /><b /><b /></span>
         </div>
       </div>
@@ -39,9 +40,9 @@ export default function Hero({ onReel }) {
         </p>
 
         <h1 className="hero-title">
-          <span className="hero-script hero-anim" style={{ '--d': '0.25s' }}>Alpha</span>
+          <span className="hero-script hero-anim" style={{ '--d': '0.25s' }}>{brandLead}</span>
           <CameraMark className="hero-camera" animate />
-          <span className="hero-sub hero-anim" style={{ '--d': '0.5s' }}>Creations</span>
+          <span className="hero-sub hero-anim" style={{ '--d': '0.5s' }}>{brandRest.join(' ')}</span>
         </h1>
 
         <div className="hero-roles hero-anim" style={{ '--d': '0.65s' }}>
