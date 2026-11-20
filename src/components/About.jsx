@@ -1,6 +1,5 @@
 import { profile, stats } from '../data.js'
 import { useCountUp, useInView } from '../hooks.js'
-import { CameraMark } from './Logo.jsx'
 
 function Stat({ value, suffix, label, start }) {
   const n = useCountUp(value, start)
@@ -20,10 +19,8 @@ export default function About() {
       <div className="container about-grid">
         <div className="about-visual" data-reveal>
           <div className="film-frame">
-            {/* Replace with <img src="/your-photo.jpg" alt="..." /> to show your portrait */}
             <div className="film-frame-inner">
-              <CameraMark className="about-mark" />
-              <span className="mono">YOUR_PHOTO.jpg</span>
+              <img src="/KBM_Pic.jpg" alt={`${profile.name}, founder of Alpha Creations`} />
             </div>
             <div className="sprockets sprockets--l" />
             <div className="sprockets sprockets--r" />
