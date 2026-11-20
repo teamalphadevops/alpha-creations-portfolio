@@ -20,7 +20,7 @@ export default function About() {
         <div className="about-visual" data-reveal>
           <div className="film-frame">
             <div className="film-frame-inner">
-              <img src="/KBM_Pic.jpg" alt={`${profile.name}, founder of Alpha Creations`} />
+              <img src={`${import.meta.env.BASE_URL}KBM_Pic.jpg`} alt={`${profile.name}, founder of Alpha Creations`} />
             </div>
             <div className="sprockets sprockets--l" />
             <div className="sprockets sprockets--r" />
