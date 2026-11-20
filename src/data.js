@@ -4,21 +4,19 @@
 // ─────────────────────────────────────────────────────────────
 
 export const profile = {
-  brand: 'Kamalesh B M',
+  brand: 'Alpha Creations',
   name: 'Kamalesh B M',
   roles: ['Video Editor', 'Web Developer'],
   tagline:
     'I edit stories that keep people watching and build fast, responsive websites to bring your ideas to life.',
-  location: 'Available worldwide · Remote',
-  email: 'hello@alphacreations.com', // ← replace
-  phone: '+00 000 000 0000', // ← replace
+  location: 'Chennai,IN · Remote',
+  email: 'kamaleshcrush@outlook.in', // ← replace
+  phone: '+91 9952312427', // ← replace
   showreel: '', // ← YouTube embed URL, e.g. https://www.youtube.com/embed/VIDEO_ID
   socials: [
-    { label: 'Instagram', url: 'https://instagram.com/' },
-    { label: 'YouTube', url: 'https://youtube.com/' },
-    { label: 'Behance', url: 'https://behance.net/' },
-    { label: 'GitHub', url: 'https://github.com/' },
-    { label: 'LinkedIn', url: 'https://linkedin.com/' },
+    { label: 'Instagram', url: 'https://instagram.com/keyframeby_k' },
+    { label: 'GitHub', url: 'https://github.com/kamaleshboobalan' },
+    { label: 'LinkedIn', url: 'www.linkedin.com/in/kamalesh-bm' },
   ],
 }
 
