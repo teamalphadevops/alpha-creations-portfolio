@@ -1,6 +1,6 @@
 # Kamalesh B M — Portfolio
 
-React + Vite portfolio for a video editor / motion designer / web developer.
+React + Vite portfolio for a video editor and web developer.
 
 ## Run
 

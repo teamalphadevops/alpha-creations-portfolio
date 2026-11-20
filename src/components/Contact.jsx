@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { profile } from '../data.js'
 
-const types = ['Video editing', 'Motion graphics', 'Website', 'Logo & branding', 'Full package']
+const types = ['Video editing', 'Website', 'Full package']
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', type: types[0], message: '' })
@@ -25,7 +25,7 @@ export default function Contact() {
           <h2 className="section-title big" data-reveal>
             Let's make<br /><span className="script">something</span> that moves.
           </h2>
-          <p data-reveal>Tell me about your video, animation, website or brand. I usually reply within 24 hours.</p>
+          <p data-reveal>Tell me about your video or website project. I usually reply within 24 hours.</p>
           <ul className="contact-list" data-reveal>
             <li><span className="mono">Email</span><a href={`mailto:${profile.email}`}>{profile.email}</a></li>
             <li><span className="mono">Phone</span><a href={`tel:${profile.phone.replace(/\s/g, '')}`}>{profile.phone}</a></li>

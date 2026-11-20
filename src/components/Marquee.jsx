@@ -1,4 +1,4 @@
-const words = ['Video Editing', 'Motion Graphics', 'React JS', 'Colour Grading', 'Logo Design', 'Web Development', 'Sound Design']
+const words = ['Video Editing', 'Web Development', 'Colour Grading', 'Sound Design', 'Content Editing', 'Website Design']
 
 export default function Marquee() {
   const row = [...words, ...words]

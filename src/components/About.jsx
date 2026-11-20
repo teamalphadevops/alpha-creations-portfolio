@@ -33,15 +33,14 @@ export default function About() {
         <div className="about-text">
           <p className="eyebrow mono" data-reveal>01 — About</p>
           <h2 className="section-title" data-reveal>
-            One creator. <em>Every frame</em> of your brand.
+            One creator. <em>Every frame</em> of your story.
           </h2>
           <p data-reveal>
-            Hi, I'm <strong>{profile.name}</strong>, a video editor and motion designer who also writes code — so I can take an idea
-            from a logo sketch, to an animated intro, to a finished edit, to the React website it lives on.
+            Hi, I'm <strong>{profile.name}</strong>, a video editor and web developer. I take your ideas from an initial edit
+            to a finished video or responsive website.
           </p>
           <p data-reveal>
-            That means fewer hand-offs, a brand that feels consistent everywhere, and someone who understands
-            both the timeline and the codebase.
+            That means fewer hand-offs and one person to handle both the edit and the website.
           </p>
 
           <div className="stats" ref={ref} data-reveal>

@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <Logo size="md" />
-        <p className="mono">© {new Date().getFullYear()} {profile.brand}. Edited, animated & coded by hand.</p>
+        <p className="mono">© {new Date().getFullYear()} {profile.brand}. Edited and built by hand.</p>
         <a href="#top" className="to-top mono">Back to top ↑</a>
       </div>
     </footer>
