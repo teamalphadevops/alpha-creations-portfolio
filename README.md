@@ -15,7 +15,7 @@ npm run build    # production files in /dist (deploy to Netlify, Vercel, GitHub 
 Everything you need to edit is in **`src/data.js`**:
 
 - `profile` – your name, email, phone, socials, and `showreel` (a YouTube embed link like `https://www.youtube.com/embed/VIDEO_ID`)
-- `services`, `stats`, `process`, `tools`, `testimonials`
+- `services`, `stats`, `process`, `tools`
 
 The Work section currently displays a “Coming Soon” message.
 
@@ -36,5 +36,5 @@ src/
   styles.css         ← design system (colours at the top in :root)
   hooks.js           ← scroll reveal, count-up, timecode
   components/        ← Loader, Navbar, Hero, About, Services, Work, Modal,
-                       Process, Tools, Testimonials, Contact, Footer, Logo, Cursor
+                       Process, Tools, Contact, Footer, Logo, Cursor
 ```

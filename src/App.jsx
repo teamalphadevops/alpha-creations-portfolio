@@ -11,7 +11,6 @@ import Services from './components/Services.jsx'
 import Work from './components/Work.jsx'
 import Process from './components/Process.jsx'
 import Tools from './components/Tools.jsx'
-import Testimonials from './components/Testimonials.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 import Modal from './components/Modal.jsx'
@@ -38,7 +37,6 @@ export default function App() {
           <Work />
           <Process />
           <Tools />
-          <Testimonials />
           <Contact />
         </main>
         <Footer />
